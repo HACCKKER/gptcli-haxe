@@ -1,6 +1,6 @@
 # GPTCLI
 
-[![Build status](https://github.com/HACCKKER/gptcli-haxe/workflows/Build/badge.svg)](https://github.com/HACCKKER/gptcli-haxe/actions)
+<!-- [![Build status](https://github.com/HACCKKER/gptcli-haxe/workflows/Build/badge.svg)](https://github.com/HACCKKER/gptcli-haxe/actions) -->
 ![](https://img.shields.io/github/languages/top/HACCKKER/gptcli-haxe?style=flat)
 ![](https://img.shields.io/github/languages/code-size/HACCKKER/gptcli-haxe?style=flat)
 
