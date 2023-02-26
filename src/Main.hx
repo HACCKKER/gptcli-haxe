@@ -91,7 +91,7 @@ class Main extends mcli.CommandLine
 
 				if (data != "quit")
 				{
-					final resp = completer.create("text-davinci-003", data, 0.5, 2048);
+					final resp = completer.create(model, data, temperature, length);
 					final output = StringTools.trim(resp.choices[0].text);
 
 					if (verbose)
@@ -118,7 +118,7 @@ class Main extends mcli.CommandLine
 		}
 		else 
 		{
-			final resp = completer.create("text-davinci-003", text, 0.5, 2048);
+			final resp = completer.create(model, text, temperature, length);
 			final output = StringTools.trim(resp.choices[0].text);
 			
 			if (verbose)
